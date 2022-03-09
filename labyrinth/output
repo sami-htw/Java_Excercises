@@ -1,0 +1,103 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-ultimate/295/lib/idea_rt.jar=41245:/snap/intellij-idea-ultimate/295/bin -Dfile.encoding=UTF-8 -classpath /home/sami/IdeaProjects/production/Prog2Demo labyrinth.TestLabyrinth
+Das erste SpielBoard:
+
+X   X X X X X   X X  
+    X   X X X   X X  
+      X X X     X X  
+X X X   X X   X X X  
+      X     X X      
+X X   X X   X X X X  
+X       X         X  
+X X X   X X X X   X  
+X       X         X  
+X X X X X   X X X X  
+
+Punkt: 9,5
+Punkt: 8,5
+Punkt: 8,6
+Punkt: 8,7
+Punkt: 8,8
+Punkt: 7,8
+Punkt: 6,8
+Punkt: 6,7
+Punkt: 6,6
+Punkt: 6,5
+Punkt: 5,5
+Existiert einen Weg: true
+X   X X X X X   X X  
+    X   X X X   X X  
+      X X X     X X  
+X X X   X X   X X X  
+      X * * X X      
+X X   X X * X X X X  
+X       X * * * * X  
+X X X   X X X X * X  
+X       X * * * * X  
+X X X X X * X X X X  
+
+Das zweite SpielBoard:
+
+X   X X X X X   X X  
+    X   X X X   X X  
+        X X     X X  
+X X X X X X   X X X  
+  X           X      
+X X   X X   X     X  
+X X     X         X  
+X X X   X X X X   X  
+X       X         X  
+X   X X X   X X X X  
+
+Punkt: 9,1
+Punkt: 8,1
+Punkt: 8,2
+Punkt: 8,3
+Punkt: 7,3
+Punkt: 6,3
+Punkt: 6,2
+Punkt: 5,2
+Punkt: 4,2
+Punkt: 4,3
+Punkt: 4,4
+Punkt: 4,5
+Punkt: 5,5
+Existiert einen Weg: true
+X   X X X X X   X X  
+    X   X X X   X X  
+        X X     X X  
+X X X X X X   X X X  
+  X * * * *   X      
+X X * X X * X     X  
+X X * * X         X  
+X X X * X X X X   X  
+X * * * X         X  
+X * X X X   X X X X  
+
+Das dritte SpielBoard:
+
+X   X X X X X   X X  
+    X   X X X   X X  
+        X X   X X X  
+X X X   X   X X X X  
+    X   X   X X   X  
+X X   X X   X X   X  
+X       X     X   X  
+X X X   X X   X   X  
+X         X     X X  
+X X X X X X X X X X  
+
+Existiert keinen Weg: false
+X   X X X X X   X X  
+    X   X X X   X X  
+        X X   X X X  
+X X X   X * X X X X  
+    X   X * X X   X  
+X X   X X * X X   X  
+X       X * * X   X  
+X X X   X X * X   X  
+X         X * * X X  
+X X X X X X X X X X  
+
+
+Process finished with exit code 0
+

@@ -1,0 +1,11 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-ultimate/295/lib/idea_rt.jar=38589:/snap/intellij-idea-ultimate/295/bin -Dfile.encoding=UTF-8 -classpath /home/sami/IdeaProjects/production/Prog2Demo pflichtAufgabe2.ShapeTester
+
+
+Shape with Origin: (10.0,40.0)/ Area:0.0/ Circumference:0.0
+Rectangle with origin: (20.0,30.0), xDelta=35.0, yDelta=15.0/ Area:2100.0/ Circumference:200.0
+Square with origin: (30.0,20.0) and delta: 5.0/ Area:100.0/ Circumference:40.0
+Circle with origin: (40.0,10.0) and radius: 25.0/ Area:1963.5/ Circumference:157.1
+
+
+
+Process finished with exit code 0
